@@ -19,6 +19,8 @@
 }
 
 .hero-text {
+  max-width: 538px;
+  margin: 0 auto;
   font-weight: 300;
   line-height: 1.4;
   text-align: center;
