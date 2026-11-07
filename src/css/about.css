@@ -1,5 +1,6 @@
 .about-list {
   background-color: #1b414b;
+  padding: 90px;
 }
 
 .about-count {
@@ -14,4 +15,49 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: #b4b7ba;
+}
+.about-section {
+  padding: 75px 0 75px;
+}
+.about-section .container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  flex-grow: 1;
+  border-radius: 24px;
+}
+
+.about-item {
+  width: calc((100% - 32px) / 2);
+}
+.about-image {
+  flex-shrink: 0;
+  width: 432px;
+}
+.about-count {
+  position: relative;
+  display: block;
+}
+.about-count::after {
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.about-text {
+  padding-top: 38px;
+}
+.about-item:nth-child(-n + 2) {
+  margin-bottom: 44px;
+}
+.about-image {
+  border-radius: 24px;
 }
