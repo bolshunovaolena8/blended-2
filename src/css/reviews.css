@@ -1,4 +1,13 @@
+.reviews-section {
+  padding-top: 75px;
+  padding-bottom: 150px;
+}
+
 .reviews-title {
+  max-width: 854px;
+  margin: 0 auto 25px;
+
+
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
@@ -7,6 +16,8 @@
 }
 
 .reviews-subtitle {
+  max-width: 571px;
+  margin: 0 auto 75px;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -14,11 +25,26 @@
   color: #b4b7ba;
 }
 
+.reviews-list {
+  display: flex;
+  gap: 26px;
+}
+
 .reviews-card {
+  width: calc((100% - 2 * 26px) / 3);
+  border-radius: 24px;
+  padding: 32px 28px;
   background-color: #fbfbfb;
 }
 
+.reviews-card img {
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+
 .reviews-card-title {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
@@ -26,6 +52,7 @@
   text-align: center;
   color: #040306;
 }
+
 .reviews-card-text {
   line-height: 1.4;
   letter-spacing: -0.02em;
