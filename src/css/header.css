@@ -21,3 +21,19 @@
 .header-nav-link:focus {
   background-color: #1b414b;
 }
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.social-item {
+  color: red;
+}
+
+.header-social-link {}
+
+.header-social-icon {}
